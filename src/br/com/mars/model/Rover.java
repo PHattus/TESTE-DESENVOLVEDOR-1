@@ -6,7 +6,7 @@
 package br.com.mars.model;
 
 /**
- *
+ * Classe do tipo model responsavel por armazenar todas as informacoes do objeto do tipo Rover
  * @author pablo
  */
 public class Rover {
@@ -49,6 +49,7 @@ public class Rover {
         return "Rover{" + "position_x=" + position_x + ", position_y=" + position_y + ", heading=" + heading + '}';
     }
     
+    // Funcao customizada para exibir as informacoes como solicitado no teste
     public String getPosition() {
         return position_x + " " + position_y + " " + heading;
     }
